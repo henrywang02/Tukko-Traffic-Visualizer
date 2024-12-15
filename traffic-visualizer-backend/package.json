@@ -1,0 +1,61 @@
+{
+  "name": "traffic-visualizer-backend",
+  "version": "1.0.0",
+  "description": "Backend for the Traffic Visualizer project. Acts as a inbetween to traffic data APIs and the enduser, to reduce load on the traffic APIs",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tsc -p .",
+    "compose:dev": "docker-compose -f dev-compose.yml up -d --build",
+    "compose:prod": "docker compose -f docker-compose.yml up -d --build",
+    "compose:down": "docker compose -f docker-compose.yml down --volumes",
+    "serve": "npx wait-on dist/index.js && nodemon dist/index.js",
+    "test": "jest",
+    "dev": "npm-run-all -p compose:dev debug",
+    "debug": "ts-node-dev --transpile-only --respawn --inspect=9229 --project tsconfig.json src/index.ts",
+    "prod": "npm-run-all -p build compose:prod"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.labranet.jamk.fi/wimma-lab-2023/iotitude/traffic-visualizer-backend"
+  },
+  "author": "IoTitude",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "bcrypt": "^5.1.1",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "http-status-codes": "^2.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^5.6.0",
+    "mongoose": "^8.3.0",
+    "node-localstorage": "^2.2.1",
+    "redis": "^4.6.7",
+    "redis-om": "^0.4.2",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^4.6.3",
+    "tsconfig-paths": "^4.2.0"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.2",
+    "@types/compression": "^1.7.2",
+    "@types/cors": "^2.8.13",
+    "@types/express": "^4.17.17",
+    "@types/jest": "^29.5.2",
+    "@types/jsonwebtoken": "^9.0.6",
+    "@types/mongoose": "^5.11.97",
+    "@types/node": "^20.2.5",
+    "@types/node-localstorage": "^1.3.0",
+    "@types/react": "^18.2.12",
+    "dotenv": "^16.3.1",
+    "jest": "^29.5.0",
+    "nodemon": "^3.1.0",
+    "npm-run-all": "^4.1.5",
+    "ts-jest": "^29.1.1",
+    "ts-node": "^10.9.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.1.3"
+  }
+}
+

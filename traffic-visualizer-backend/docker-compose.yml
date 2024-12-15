@@ -1,0 +1,30 @@
+version: "3.8"
+services:
+  redis-stack:
+    image: redis/redis-stack:6.2.6-v12
+    container_name: tukko-redis
+    restart: always
+    ports:
+      - 6379:6379
+    volumes:
+      - ./redis-stack.conf:/redis-stack.conf
+
+  mongo:
+    image: mongo:jammy
+    container_name: tukko-archive
+    env_file:
+      - .env
+
+  tv-api:
+    depends_on:
+      - redis-stack
+      - mongo
+    build: .
+    container_name: tukko-app
+    restart: always
+    environment:
+      FORNTEND_ORIGIN: "http://localhost:5173"
+      REDIS_OM_URL: "redis://redis-stack:6379"
+      DB_CONN_STRING: "${DB_CONN_STRING}"
+    ports:
+      - "3001:3001"
