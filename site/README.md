@@ -1,0 +1,1 @@
+Add asked information to index.html and styles/main.css files. Add required images to img folder and write image source like "../img/IMAGE NAME"

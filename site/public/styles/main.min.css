@@ -1,0 +1,38 @@
+/*!
+* Start Bootstrap - Scrolling Nav (http://startbootstrap.com/)
+* Copyright 2013-2016 Start Bootstrap
+* Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+*/*{-webkit-box-sizing:border-box;box-sizing:border-box;margin:0;padding:0}body{font-family:'Century Gothic', sans-serif;font-weight:bold;background:url(../img/iotitude_bg.jpg);background-repeat:no-repeat;background-size:cover;background-position:center}h1{font-size:2.5em;margin-bottom:2em;padding-top:1.5em}h2{font-weight:300;margin-bottom:20px}p{font-size:10%}
+
+
+
+.navbar-default{background-color:#242424;border-color:#444}.navbar-default .navbar-collapse{border-color:#444}.navbar-default .navbar-toggle{border:none;color:#fcfafa}.navbar-default .navbar-toggle:hover,.navbar-default .navbar-toggle:focus{background-color:transparent}.navbar-default .navbar-toggle .icon-bar{background-color:#fcfafa}.navbar-default .navbar-brand{color:#fcfafa;letter-spacing:1px;-webkit-transition:color .3s;transition:color .3s}.navbar-default .navbar-brand:focus{color:#fcfafa}.navbar-default .navbar-brand:hover,.navbar-default .navbar-brand:active{color:#74B7DC}.navbar-default .navbar-brand:hover span,.navbar-default .navbar-brand:active span{color:#e6e4e4}.navbar-default .navbar-brand span{color:#74B7DC;font-weight:300;-webkit-transition:color .3s;transition:color .3s}.navbar-default .navbar-nav{margin-top:0;margin-bottom:0}.navbar-default .navbar-nav>li>a{-webkit-transition:color .3s ease-in-out, box-shadow .3s ease-in-out;-webkit-transition:color .3s ease-in-out, -webkit-box-shadow .3s ease-in-out;transition:color .3s ease-in-out, -webkit-box-shadow .3s ease-in-out;transition:color .3s ease-in-out, box-shadow .3s ease-in-out;transition:color .3s ease-in-out, box-shadow .3s ease-in-out, -webkit-box-shadow .3s ease-in-out;color:#fcfafa}.navbar-default .navbar-nav>li>a:focus{color:#e6e4e4}@media only screen and (min-width: 768px){.navbar-default .navbar-nav>li>a:focus{color:#fcfafa}}.navbar-default .navbar-nav>li>a:hover{color:#e6e4e4}@media only screen and (min-width: 768px){.navbar-default .navbar-nav>li>a:hover{color:#74B7DC}}.navbar-default .navbar-nav>.active>a{color:#242424;background-color:#e6e4e4;border-left:3px solid grey;padding-left:18px;-webkit-box-shadow:0 2px 10px rgba(15,15,15,0.7);box-shadow:0 2px 10px rgba(15,15,15,0.7)}@media only screen and (min-width: 768px){.navbar-default .navbar-nav>.active>a{color:#fcfafa;background-color:transparent;border-left:none;padding-left:15px;-webkit-box-shadow:0 -3px 0px #74B7DC inset;box-shadow:0 -3px 0px #74B7DC inset}}.navbar-default .navbar-nav>.active>a:hover,.navbar-default .navbar-nav>.active>a:focus{color:#242424;background-color:#e6e4e4;border-left:3px solid grey;padding-left:18px;-webkit-box-shadow:0 2px 10px rgba(15,15,15,0.7);box-shadow:0 2px 10px rgba(15,15,15,0.7)}@media only screen and (min-width: 768px){.navbar-default .navbar-nav>.active>a:hover,.navbar-default .navbar-nav>.active>a:focus{color:#fcfafa;background-color:transparent;border-left:none;padding-left:15px;-webkit-box-shadow:0 -3px 0px #74B7DC inset;box-shadow:0 -3px 0px #74B7DC inset}}.button-blog{border:3px solid white;padding:0.65em 1.4em;color:#fcfafa}.button-blog:hover{background-color:#74B7DC}.landing{background:url(../img/IoTitudebg.png) no-repeat;background-attachment:fixed;background-size:cover;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;padding-bottom:50px;height:100vh;overflow:hidden;color:#e6e4e4;text-shadow:2px 2px 7px rgba(15,15,15,0.7),-2px -2px 7px rgba(15,15,15,0.7)}.landing p{text-align:right}.landing .logo{background:url(../img/IoTitudebg.png) no-repeat;background-size:cover;min-height:100vh}.landing .logo .smoke{background:url(../img/mysticons_hero_smokes.png) no-repeat;background-size:cover;min-height:100vh}.landing-new{height:100vh;background:url(../img/IoTitudebg.jpg);background-position:center;background-size:cover;background-repeat:no-repeat;background-attachment:fixed}.about,.team,.solution{min-height:100vh;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;color:#e6e4e4}.solution{padding-bottom:10vh}
+
+
+
+.avoin{min-height:100vh;background:url(../img/wimmaetu2.png);background-position:center;background-size:cover;background-repeat:no-repeat;background-attachment:fixed;padding:2em 0em 5em 0em}
+
+.team-images{text-align:center}.team-images img{width:100%;-webkit-filter:grayscale(100%);filter:grayscale(0%);border:3px solid white;border-radius:1000px;-webkit-transition-duration:300ms;transition-duration:300ms}.team-images img:hover{-webkit-filter:none;filter:none;-webkit-transform:scale(1.02);transform:scale(1.02)}
+
+
+.team-member{margin:1em 1em;width:20%;display:inline-block}strong{font-size:1.3em}.left,.right,
+
+
+
+.note-center{width:48%;min-height:40vh;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.left img,.right img,.note-center img{max-width:100%}.spacer{min-height:4vh;width:100%}.left{float:left}.right{float:right}
+
+.avoin2
+
+{margin-top: 12em;}
+
+
+
+.note-center{width:100%}.note{padding:4em;background-color:white;color:#333}.clear{clear:both}@media only screen and (min-width: 768px){.navbar{background:transparent;border:none;padding:20px 0;-webkit-transition:background .5s ease-in-out, padding .5s ease-in-out;transition:background .5s ease-in-out, padding .5s ease-in-out}
+    
+    .note-center{width:100%}.note{padding:4em;background-color:white;color:#333}.clear{clear:both}@media only screen and (min-width: 768px){.navbar{background:transparent;border:none;padding:20px 0;-webkit-transition:background .5s ease-in-out, padding .5s ease-in-out;transition:background .5s ease-in-out, padding .5s ease-in-out}
+    
+    .top-nav-collapse{background:#242424;padding:0}p{font-size:150%}h2{margin-bottom:40px;font-size:300%}}@media only screen and (max-width: 768px){.note-center{font-size:1.3em}.note{padding:15px}.landing-new{background:url(../img/IoTitude_hero_small.jpg);background-size:cover;background-position:center;background-repeat:no-repeat}.button-blog{border:0;padding:0;margin:0}.left,.right{float:none;display:-webkit-box;display:-ms-flexbox;display:flex;vertical-align:middle;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;margin:2vh auto;width:95%}.left p,.right p{font-size:1.3em;margin-bottom:0}.left img,.right img{width:800px}
+        
+        .team-member{margin:auto;width:75%;display:block;margin-top:5vh}.team-member p{padding-top:0.5em;padding-bottom:1em;font-size:1.4em}}
+
+/*# sourceMappingURL=main.min.css.map */
